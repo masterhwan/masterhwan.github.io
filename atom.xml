@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-25T04:02:53.000Z</updated>
+  <updated>2018-10-25T07:21:55.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,45 +17,28 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test</title>
-    <link href="http://yoursite.com/2018/10/25/test/"/>
-    <id>http://yoursite.com/2018/10/25/test/</id>
-    <published>2018-10-25T04:00:15.000Z</published>
-    <updated>2018-10-25T04:02:53.000Z</updated>
+    <title>20181025</title>
+    <link href="http://yoursite.com/2018/10/25/20181025/"/>
+    <id>http://yoursite.com/2018/10/25/20181025/</id>
+    <published>2018-10-25T04:07:19.000Z</published>
+    <updated>2018-10-25T07:21:55.000Z</updated>
     
-    <content type="html"><![CDATA[<p>test 성공!</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;test 성공!&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2018/10/19/hello-world/"/>
-    <id>http://yoursite.com/2018/10/19/hello-world/</id>
-    <published>2018-10-19T09:33:06.000Z</published>
-    <updated>2018-10-19T09:33:06.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<ul><li>다시 블로그 시작</li></ul><h2 id="책-스프링부트로-배우는-웹-개발"><a href="#책-스프링부트로-배우는-웹-개발" class="headerlink" title="책 :스프링부트로 배우는 웹 개발"></a>책 :<a href="http://www.yes24.com/24/goods/61793313" target="_blank" rel="noopener">스프링부트로 배우는 웹 개발</a></h2><p>##1</p><ul><li>웹 서버 : html파일 같은 정적 파일들을 전달해 주는 역할을 하는 서버</li><li>웹 어플리케이션 컨테이너 = 웹 어플리케이션 서버<ul><li>php,jsp,asp,js 등 언어들 사용해서 동적인 페이지들이 생성 가능한 서버</li></ul></li><li>클래스 로더 : JVM에 class를 loading 한다<ul><li>계층 구조 : Bootstrap (최상위)-&gt; Extension -&gt; System -&gt; User-Define Class loader (최하위)</li><li>Bootstrap Class loader :  &lt;JAVA_HOME&gt;/jre/lib에 위치한 자바 핵심 라이브러리를 로딩</li><li>Extension Class loader : &lt;JAVA_HOME&gt;/jre/lib/ext또는 java.ext.dirs 시스템 속성에 지정된 기타 디렉터리의 코드를 로딩</li><li>System Class loader : ClassPath 환경변수에 매핑</li><li><a href="https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94_%ED%81%B4%EB%9E%98%EC%8A%A4%EB%A1%9C%EB%8D%94" target="_blank" rel="noopener">https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94_%ED%81%B4%EB%9E%98%EC%8A%A4%EB%A1%9C%EB%8D%94</a></li></ul></li><li>쿠키(Cookie) : 클라이언트의 상태 관리</li><li>세션(Session) : 서버의 상태 관리<br>##2</li><li>자바 웹 개발에서 IoC가 인기를 끄는 이유<ul><li>프로그램의 생명주기에 대한 주도권이 웹 애플리케이션 컨테이너에 있기 때문에</li></ul></li><li>IoC <ul><li>하이레벨 모듈은 로우레벨 모듈에 의존해서는 안 되고, 모두 인터페이스에 의존해야 한다.</li><li>추상화는 세부 사항에 의존해서는 안된다. 세부 사항이 추상화에 의존해야 한다.</li><li>= 인터페이스를 사용해 결합도 낮추는것이 목적</li><li>하지만 인터페이스 구현체가 필요해 완전히 분리할수 없다.</li><li>인스턴스화할 수 있는 코드에 대한 의존성을 해결하는 것이 <strong>의존성 주입</strong>이다.</li><li>인터셉터 : @Controller가 요청을 처리하기 전, 후에 대해 로직 추가 할수 있다<h2 id="3"><a href="#3" class="headerlink" title="3"></a>3</h2></li></ul></li><li>REST(Representational State Transfer) : 분산 네트워크 프로그래밍의 아키텍쳐 스타일, 로이 필딩이 처음 제안</li><li>특징<ul><li>클라이언트/서버 : 클라이언트와 서버가 독립적으로 구분되어야하고,<br>서버 또는 클라이언트 증설 시에 서로간의 의존성 때문에 확장에 문제가 되는 일이 없어야 한다.</li><li>무상태성 : 클라이언트와 서버 간의 통신에 상태가 없어야한다. 서버는 클라이언트 상태를 기억할 필요가 없다.</li><li>계층형 구조 : 서버와 클라이언트 사이에 게이트웨어, 방화벽, 프록시가 있는 것처럼 다계층 형태로 레이어를 추가하거나 수정하거나 제거할 수있고 확장성이 있어야 한다.</li><li>캐시 : 서버의 응답들은 캐시르 가지고 있거나 없거나 둘 중의 하나인데, 캐시를 가지고 있을 경우에는 클라이언트가 캐시를 통해서 응답을 재사용할 수 있고 이를 통해서 서버의 부하를 낮추어서 서버의 성능이 향상될 수 있다.</li><li>코드 온 디멘드 : 요청이 오면 코드를 준다는 의미로 특정 시점에 서버가 특정 기능을 수행하는 스크립트 또는 플러그인을 클라이언트에 전달해서 해당 기능을 동작하도록 하는 것이다. 예로는 애플릿, 자바스크립트, 플래시가 있다.</li><li>통합 인터페이스 : 서버와 클라이언트 간의 상호 작용은 일관된 인터페이스들 위에서 이뤄져야 한다. 그 내용은 아래와 같다.<ul><li>인터페이스 규칙<ul><li>리소스 식별 : 웹 안에서 서로 구분할 수 있는 개념으로 URI와 같은 고유 시별자를 통해 표현할 수 있다.</li><li>표현을 통한 리소스 처리 : 같은 데이터에 대해서 표현할 때 JSON, XML, HTML 페이지와 같이 다양한 콘텐츠 유형으로 표현할 수 있다. 그렇지만 데이터는 변경되지 않는다.</li><li>자기 묘사 메세지 : HTTP 통신을 할 때도 Header에 메타 데이터 정보를 추가해서 실제 데이터와는 관련 없지만 데이터에 대한 설명을 나타내는 정보를 담을수 있다.</li><li>애플리케이션의 상태에 대한 하이퍼미디어(HATEOS) : 웹은 여러 페이지들과 그 페이지들이 이동할 수있는 링크 정보들로 구성되어 있다. REST API를 개발할 때도 단순히 데이터만 전달하지 않고 링크 정보까지 포함한다면 좀 더 웹에 친숙한 REST API가 될 것이다.</li></ul></li></ul></li></ul></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        &lt;ul&gt;
+&lt;li&gt;다시 블로그 시작&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;책-스프링부트로-배우는-웹-개발&quot;&gt;&lt;a href=&quot;#책-스프링부트로-배우는-웹-개발&quot; class=&quot;headerlink&quot; title=&quot;책 :스프링부트로 배우는 웹 개발&quot;&gt;&lt;/a&gt;책 :&lt;
       
     
     </summary>
     
+    
+      <category term="til" scheme="http://yoursite.com/tags/til/"/>
     
   </entry>
   
