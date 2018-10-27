@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-27T06:25:22.000Z</updated>
+  <updated>2018-10-27T11:53:25.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20181027</title>
+    <link href="http://yoursite.com/2018/10/27/20181027/"/>
+    <id>http://yoursite.com/2018/10/27/20181027/</id>
+    <published>2018-10-27T11:52:47.000Z</published>
+    <updated>2018-10-27T11:53:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>알고리즘 셤  = 탈락</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;알고리즘 셤  = 탈락&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="알고리즘" scheme="http://yoursite.com/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/"/>
+    
+  </entry>
   
   <entry>
     <title>20181026</title>
