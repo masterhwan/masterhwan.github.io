@@ -1,0 +1,50 @@
+<!DOCTYPE html><html prefix="og: http://ogp.me/ns#"><head><meta name="generator" content="Hexo 3.8.0"><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title>20181028 · Hexo</title><meta name="description"><meta name="og:title" content="20181028"><meta name="og:type" content="website"><meta name="og:url" content="http://yoursite.com/2018/10/28/20181028/"><meta name="og:image" content="http://image.toast.com/aaaaahq/hola_cover.JPG"><meta name="og:description"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.ico"><link rel="stylesheet" href="/css/chiangmai.css"><meta name="steem:author" content="@stunstunstun"><meta name="fb:app_id" content="1258629384258634"><link rel="search" type="application/opensearchdescription+xml" href="http://yoursite.com/atom.xml" title="Hexo"></head><body class="post"><div id="fb-root"></div><div class="wrap"><header><nav class="navi-post"><a class="navi-post-back" href="javascript:history.back()"><i class="fa fa-arrow-left" aria-hidden="true"></i></a><a class="navi-post-home" href="/"><i class="fa fa-home" aria-hidden="true"></i></a></nav></header><main class="post"><div class="post"><article class="post-block"><h1 class="post-title">20181028</h1><div class="post-info"><div class="post-info-profile"><a href="https://github.com/stunstunstun" target="_blank"><img src="/image/profile.jpg"></a></div><div class="post-info-details"><div class="post-categories"></div><div class="post-date">Oct 28, 2018</div></div></div><div class="post-share"><div class="fb-like" data-href="http://yoursite.com/2018/10/28/20181028/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="false">                 </div><div class="fb-share-button" data-href="http://yoursite.com/2018/10/28/20181028/" data-layout="button" data-size="small" data-mobile-iframe="true"></div><div class="fb-follow" data-href="https://www.facebook.com/holaxprogramming/" data-layout="button_count" data-size="small" data-show-faces="true"></div></div><div class="post-content"><h1 id="책-알고리즘-문제-해결-전략"><a href="#책-알고리즘-문제-해결-전략" class="headerlink" title="책 : 알고리즘 문제 해결 전략"></a>책 : <a href="http://www.yes24.co.kr/24/goods/8006522" target="_blank" rel="noopener">알고리즘 문제 해결 전략</a></h1><h2 id="자주하는-실수"><a href="#자주하는-실수" class="headerlink" title="자주하는 실수"></a>자주하는 실수</h2><pre><code>1. 산술 오버플로
+2. 배열 범위 밖 원소에 접근
+3. 일관되지 않은 범위 표현 방식 사용하기
+4. Off-by-one 오류
+5. 컴파일러가 잡아주지 못하는 상수 오타
+6. 스택 오버플로
+7. 다차원 배열 인덱스 순서 바꿔 쓰기
+8. 잘못된 비교 함수 작성
+9. 최소, 최대 예외 잘못 다루기
+10. 연산자 우선순위 잘못 쓰기
+11. 너무 느린 입출력 방식 선택
+12. 변수 초기화 문제
+</code></pre><h2 id="디버깅과-테스팅"><a href="#디버깅과-테스팅" class="headerlink" title="디버깅과 테스팅"></a>디버깅과 테스팅</h2><ul>
+<li>디버깅<ul>
+<li>작은 입력에 대해 제대로 실행되나 확인하기</li>
+<li>Aseertion(단정문) 사용</li>
+<li>프로그램의 계산 중간 결과를 출력</li>
+</ul>
+</li>
+</ul>
+<h2 id="알고리즘의-시간-복잡도-분석"><a href="#알고리즘의-시간-복잡도-분석" class="headerlink" title="알고리즘의 시간 복잡도 분석"></a>알고리즘의 시간 복잡도 분석</h2><ul>
+<li>계산 복잡도 이론 : 빠른 알고리즘이 존재 한다 = 쉬운 문제</li>
+<li>P 문제 : 다항 시간 알고리즘이 존재하는 문제들의 알고리즘의 집합 </li>
+<li>계산 복잡도 클래스 : 같은 성질을 갖는 문제들을 모아놓은 집합</li>
+<li>NP : 다항 시간 알고리즘이 존재하지 않는 문제들의 집합이 아니다</li>
+<li>이게 다 대체 무슨말이야</li>
+<li>마스터 정리<ul>
+<li>어떤 함수의 수행 시간이 특정 형태로 함수로 표현될 때 이함수의 O()표기법을 쉽게 계산할 수 있도록 도와줌<br><a href="https://github.com/be4ter/algorithm/blob/master/test/SumTest.java" target="_blank" rel="noopener">참고</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="알고리즘의-정당성-증명"><a href="#알고리즘의-정당성-증명" class="headerlink" title="알고리즘의 정당성 증명"></a>알고리즘의 정당성 증명</h2><ul>
+<li>귀납법<ul>
+<li>단계 나누기 : 증명하고 싶은 사실을 여러 단계로 나눈다.</li>
+<li>첫 단계 증명 : 그중 첫 단계에서 증명하고 싶은 내용이 성립함을 보인다.</li>
+<li>귀납 증명 : 한 단계에서 증명하고 싶은 내용이 성립한다면, 다음 단계에서도 성립함을 보인다.</li>
+</ul>
+</li>
+<li><p>반복문 불변식 : 반복문의 내용이 한 번 실행될 때마다 중간 결과가 우리가 원하는 답으로 가는 길 위에 잘 있는지 명시하는 조건</p>
+<ul>
+<li>반복문 진입시에 불변식이 성립함을 보인다.</li>
+<li>반복문 내용이 시작할 때 불변식이 성립했다면 내용이 끝날 때도 불변식이 항상 성립함을 보인다.</li>
+<li>반복문 종료시에 불변식이 성립하면 항상 우리가 정답을 구했음을 보인다.<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">// (*) 불변식은 여기서 성립해야한다</span><br><span class="line">while(어떤조건) &#123;</span><br><span class="line">    // 반복문 내용의 시작</span><br><span class="line">    ...</span><br><span class="line">    // 반복문 내용의 끝</span><br><span class="line">    //(**) 불변식은 여기에서도 성립해야 한다.</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p>귀류법</p>
+</li>
+</ul>
+</div></article></div></main><footer><div class="paginator"><a class="prev" href="/2018/10/27/20181027/"><i class="fa fa-arrow-left" aria-hidden="true"></i></a></div><ins class="adsbygoogle adsense-bottom" style="display:block" data-ad-client="ca-pub-6188640546219653" data-ad-slot="6129396565" data-ad-format="auto"></ins><div class="fb-comments-area"><div class="fb-comments" data-href="http://yoursite.com/2018/10/28/20181028/" data-width="700" data-numposts="5"></div></div><div class="copyright"><p>© 2012 - 2018 <a href="https://github.com/stunstunstun" target="_blank">Minhyeok Jung</a>. Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/stunstunstun/hexo-theme-chiangmai" target="_blank">hexo-theme-chiangmai</a>.</p></div></footer></div><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({});</script><script>window.fbAsyncInit=function(){FB.init({appId:"1258629384258634",cookie:!0,xfbml:!0,version:"v2.8"}),FB.AppEvents.logPageView()},function(e,n,t){var o,c=e.getElementsByTagName(n)[0];e.getElementById(t)||((o=e.createElement(n)).id=t,o.src="//connect.facebook.net/en_US/sdk.js",c.parentNode.insertBefore(o,c))}(document,"script","facebook-jssdk");</script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create','UA-97419941-1','auto');ga('send','pageview');</script></body></html>
