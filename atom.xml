@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-29T09:53:06.000Z</updated>
+  <updated>2018-10-29T09:55:27.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2018/10/29/20181029/"/>
     <id>http://yoursite.com/2018/10/29/20181029/</id>
     <published>2018-10-29T04:53:25.000Z</published>
-    <updated>2018-10-29T09:53:06.000Z</updated>
+    <updated>2018-10-29T09:55:27.000Z</updated>
     
-    <content type="html"><![CDATA[<p>aws ec2 ubuntu 서버에 tomcat 설치<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1.$ wget http://apache.tt.co.kr/tomcat/tomcat-8/v8.5.34/bin/apache-tomcat-8.5.34.tar.gz</span><br><span class="line">확장자가 tar.gz인걸로 받으면 된다.</span><br><span class="line">2. 환경변수 잡기</span><br></pre></td></tr></table></figure></p><p>tomcat/bin/webapps/하위 디렉토리들 : 독립된 웹 애플리케이션<br><img src="!--￼1--" alt="webapp 디렉토리들"></p>]]></content>
+    <content type="html"><![CDATA[<p>aws ec2 ubuntu 서버에 tomcat 설치<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1.$ wget http://apache.tt.co.kr/tomcat/tomcat-8/v8.5.34/bin/apache-tomcat-8.5.34.tar.gz</span><br><span class="line">확장자가 tar.gz인걸로 받으면 된다.</span><br><span class="line">2. 환경변수 잡기</span><br></pre></td></tr></table></figure></p><p>tomcat/bin/webapps/하위 디렉토리들 : 독립된 웹 애플리케이션<br>()</p>]]></content>
     
     <summary type="html">
     
