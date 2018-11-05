@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-01T14:04:48.000Z</updated>
+  <updated>2018-11-05T13:46:10.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20181105</title>
+    <link href="http://yoursite.com/2018/11/05/20181105/"/>
+    <id>http://yoursite.com/2018/11/05/20181105/</id>
+    <published>2018-11-05T05:43:29.000Z</published>
+    <updated>2018-11-05T13:46:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>파이썬 생성자 오버로딩 하는 법<br><figure class="highlight plain"><figcaption><span>myClass1(object):</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">    def __init__(self, *args, **kwargs):</span><br><span class="line">        #args -- 이름이 없는 인자를 저장하는 tuple</span><br><span class="line">        # #kwargs -- 이름이 있는 인자를 저장하는 dict</span><br><span class="line">        print &quot;aargs:&quot;, args</span><br><span class="line">        print &quot;kwargs:&quot;, kwargs</span><br><span class="line">        mynum = 3 if kwargs[&apos;num&apos;] is None else kwargs[&apos;num&apos;]</span><br><span class="line"></span><br><span class="line">o = myClass1(3, &quot;hello&quot;, num = 1, mystring = &quot;mystring&quot;)</span><br></pre></td></tr></table></figure></p><ul><li><p>python exeption unittest 통과 하기</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">class MoneyTest(unittest.TestCase):</span><br><span class="line">    def test_under_money(self):</span><br><span class="line">        with self.assertRaises(LottoException):</span><br><span class="line">            Money(999)</span><br></pre></td></tr></table></figure></li><li><p>python input() 리턴 타입은 str</p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;파이썬 생성자 오버로딩 하는 법&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;myClass1(object):&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>20181101</title>
