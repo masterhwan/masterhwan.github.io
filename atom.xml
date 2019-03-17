@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-10T12:51:07.000Z</updated>
+  <updated>2019-03-17T11:34:27.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019년 3월 3주 회고</title>
+    <link href="http://yoursite.com/2019/03/17/20190317/"/>
+    <id>http://yoursite.com/2019/03/17/20190317/</id>
+    <published>2019-03-17T02:33:24.000Z</published>
+    <updated>2019-03-17T11:34:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>이번 주에는 두군데 코딩 테스트를 봤다.<br>와 알고리즘 공부한다고 했는데 문제는 내 생각보다 너무 어렵다<br>코딩 테스트를 통과하겠다는 내꿈은 잠시 접어 두고 다른 방향으로 접근해야겠다.<br>현재 알고리즘 공부랑 같이하고 있는 체스 게임부터 완성시키자!</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;이번 주에는 두군데 코딩 테스트를 봤다.&lt;br&gt;와 알고리즘 공부한다고 했는데 문제는 내 생각보다 너무 어렵다&lt;br&gt;코딩 테스트를 통과하겠다는 내꿈은 잠시 접어 두고 다른 방향으로 접근해야겠다.&lt;br&gt;현재 알고리즘 공부랑 같이하고 있는 체스 게임부
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019년 3월 2주 회고</title>
