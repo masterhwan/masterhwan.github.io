@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-17T11:34:27.000Z</updated>
+  <updated>2019-03-31T15:22:28.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019 3월 마지막주 회고</title>
+    <link href="http://yoursite.com/2019/04/01/20190401/"/>
+    <id>http://yoursite.com/2019/04/01/20190401/</id>
+    <published>2019-03-31T15:11:23.000Z</published>
+    <updated>2019-03-31T15:22:28.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>원래 저번주에도 회고록 쓰려고 했는데 그냥 쉬고 싶어서 넘겨버렸다.<br>16일에 본 코딩 테스트 결국 다 떨어졌다<br>날이 갈 수록 어려워진다. 나도 알고리즘 문제 풀어본다고 애쓰고는 있는데 지금 까지 안해서 이렇게 되는거 같다.<br>고오급 개발자로 가는길은 너무 험난하다.<br>다음달 까지 돈벌어서 이걸로 더 스마트한 개발자로 가는 투자를 해야겠다.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;원래 저번주에도 회고록 쓰려고 했는데 그냥 쉬고 싶어서 넘겨버렸다.&lt;br&gt;16일에 본 코딩 테스트 결국 다 떨어졌다&lt;br&gt;날이 갈 수록 어려워진다. 나도 알고리즘 문제 풀어본다고 애쓰고는 있는데 지금 까지 안해서 이렇게 되는거 같다.&lt;br&gt;고오급
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019년 3월 3주 회고</title>
